@@ -1,0 +1,124 @@
+body {
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  width: 414px;
+  height: 676px;
+}
+
+section {
+  padding-bottom: 71px;
+  background-color: #F3F3F3;
+  height: 676px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #F8F8F8;
+  position: relative;
+  bottom: -120px;
+  width: 362px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+nav a {
+  float: left;
+  width: 15%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  padding-right: 60px;
+  color: black;
+}
+
+nav .active {
+  font-weight: bold;
+}
+
+.tab-icon {
+  height: 26px;
+}
+
+.line {
+  height: 7px !important;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+h1 {
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 12px;
+  text-align: center;
+}
+
+.bus {
+  height: 30px;
+  float: left;
+  padding-top: 8px;
+}
+
+.route-data {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.route-data td {
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+}
+
+.route-data th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+  color: black;
+  font-size: 12px;
+}
+
+thead {
+  background-color: #F3F3F3;
+}
+
+.route-data th:first-child {
+  width: 82px;
+}
+
+.route-data tr td:first-child {
+  width: 50px;
+}
+
+.route-data tr td:nth-child(even) {
+  width: 150px;
+}
+
+tbody {
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+
+.top {
+  text-align: center;
+  background-color: #FAD87D;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.back-arrow {
+  height: 17px;
+  float: left;
+  position: relative;
+  top: 17px;
+  left: 15px;
+}
+
+.status {
+  width: 414px;
+}
