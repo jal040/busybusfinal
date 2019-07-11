@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Busy Bus</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-
     <section class="container">
       <img src="images/status.png" class="status" alt="status">
       <div class="top">
@@ -15,81 +16,79 @@
         <h1>Washington and State</h1>
       </div>
       <div class="content">
-        <div class="preview east">
+        <img src="images/Map.png" alt="Map">
           <table class="route-data">
             <h2> Eastbound </h2>
             <tr>
-              <td>60</td>
-              <td>Randolph/Harbor Dr</td>
-              <td>Every 20 minutes</td>
+              <td><img src="images/60.png" class="line-number" alt="60"></td>
+              <td>to Randolph to Harbor Dr</td>
+              <td><img src="images/signal.png" class="signal">3, 23, 43 min</td>
             </tr>
             <tr>
-              <td>124</td>
-              <td>Navy Pier</td>
-              <td>Every 10 minutes</td>
+              <td><img src="images/124.png" class="line-number" alt="124"></td>
+              <td>to Navy Pier</td>
+              <td><img src="images/signal.png" class="signal">9, 19 min</td>
             </tr>
           </table>
-        </div>
-        <div class="preview north">
+
+
           <table class="route-data">
             <h2> Northbound </h2>
             <tr>
-              <td>151</td>
-              <td>Devon/Clark</td>
-              <td>Every 16 minutes</td>
+              <td><img src="images/151.png" class="line-number" alt="151"></td>
+              <td>to Devon to Clark</td>
+              <td><img src="images/signal.png" class="signal">16, 32 min</td>
             </tr>
           </table>
-        </div>
-        <div class="preview south">
+
+
           <table class="route-data">
             <h2> Southbound </h2>
             <tr>
-              <td>J14</td>
-              <td>103rd/Stony Island</td>
-              <td>Every 15 minutes</td>
+              <td><img src="images/J14.png" class="line-number" alt="J14"></td>
+              <td>to 103rd to Stony Island</td>
+              <td><img src="images/signal.png" class="signal">4, 19, 34 min</td>
             </tr>
             <tr>
-              <td>124</td>
-              <td>Navy Pier</td>
-              <td>Every 10 minutes</td>
+              <td><img src="images/124.png" class="line-number" alt="124"></td>
+              <td>to Navy Pier</td>
+              <td><img src="images/signal.png" class="signal">6, 16, 26 min</td>
             </tr>
           </table>
-        </div>
-        <div class="preview reroute">
+
           <table class="route-data">
             <h2> Reroute </h2>
             <tr>
-              <td>6x</td>
-              <td>Jackson Park Express</td>
+              <td><img src="images/6x.png" class="line-number" alt="6x"></td>
+              <td>to Jackson Park Express</td>
               <td>N/A</td>
             </tr>
           </table>
-        </div>
-        <div class="preview no-service">
+
           <table class="route-data">
             <h2> Out of Service </h2>
             <tr>
-              <td>4</td>
-              <td>Cottage Grove</td>
+              <td><img src="images/4.png" class="line-number" alt="4"></td>
+              <td>to Cottage Grove</td>
               <td>Resumes 12:10am</td>
             </tr>
             <tr>
-              <td>20</td>
-              <td>Madison</td>
+              <td><img src="images/20.png" class="line-number" alt="20"></td>
+              <td>to Madison</td>
               <td>Resumes 12:10am</td>
             </tr>
             <tr>
-              <td>157</td>
-              <td>Streeterville/Taylor</td>
+              <td><img src="images/157.png" class="line-number" alt="157"></td>
+              <td>to Streeterville to Taylor</td>
               <td>Resumes 6:00am</td>
             </tr>
           </table>
-        </div>
+
       </div>
       <nav>
         <a href="#"> <img src="images/directionIcon1.png" class="tab-icon" alt="directions"> Directions </a>
         <a href="#" class="active"><img src="images/busIcon.png" class="tab-icon" alt="busIcon">Stations </a>
-        <a href="#"><img src="images/lineIcon.png" class="tab-icon line" alt="lineIcon">Lines </a>
+        <a href="#"><img src="images/lineIcon.png" class="tab-icon line-icon" alt="lineIcon">Lines </a>
       </nav>
     </section>
   </body>

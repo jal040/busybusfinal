@@ -1,37 +1,39 @@
 body {
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
+  width: 375px;
   background-color: black;
-  width: 414px;
-  height: 676px;
+  height: 812px;
 }
 
 section {
   padding-bottom: 71px;
   background-color: #F3F3F3;
-  height: 676px;
+  height: 812px;
 }
 
 nav {
   overflow: hidden;
   background-color: #F8F8F8;
+  /* position: fixed;
+  bottom: 0; */
   position: relative;
-  bottom: -120px;
-  width: 362px;
+  bottom: 1px;
+  width: 373px;
   padding-top: 3px;
   padding-bottom: 3px;
-  padding-left: 50px;
   text-align: center;
   border: 1px solid #ddd;
 }
 
 nav a {
   float: left;
-  width: 15%;
+  width: 14%;
   text-align: center;
   text-decoration: none;
   font-size: 11px;
-  padding-right: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
   color: black;
 }
 
@@ -43,19 +45,19 @@ nav .active {
   height: 26px;
 }
 
-.line {
+.line-icon {
   height: 7px !important;
   padding-top: 12px;
   padding-bottom: 6px;
 }
 
 h1 {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 h2 {
   font-size: 12px;
-  text-align: center;
+  padding-left: 20px;
 }
 
 .bus {
@@ -70,8 +72,9 @@ h2 {
 }
 
 .route-data td {
-  font-size: 14px;
+  font-size: 13px;
   padding: 10px 10px 10px 10px;
+  color: #313131;
 }
 
 .route-data th {
@@ -92,7 +95,12 @@ thead {
 }
 
 .route-data tr td:first-child {
-  width: 50px;
+  width: 30px;
+  padding-left: 20px;
+}
+
+.route-data tr td:last-child {
+  text-align: right;
 }
 
 .route-data tr td:nth-child(even) {
@@ -100,7 +108,6 @@ thead {
 }
 
 tbody {
-  border-bottom: 1px solid #ddd;
   background-color: white;
 }
 
@@ -112,13 +119,21 @@ tbody {
 }
 
 .back-arrow {
-  height: 17px;
+  height: 15px;
   float: left;
   position: relative;
-  top: 17px;
+  top: 15px;
   left: 15px;
 }
 
 .status {
-  width: 414px;
+  width: 373px;
+}
+
+.line-number {
+  height: 20px;
+}
+
+.signal {
+  height: 12px;
 }
