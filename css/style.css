@@ -15,9 +15,9 @@ section {
 nav {
   overflow: hidden;
   background-color: #F8F8F8;
-  /* position: fixed;
-  bottom: 0; */
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  /* position: relative; */
   bottom: 1px;
   width: 373px;
   padding-top: 3px;
